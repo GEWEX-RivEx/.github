@@ -2,11 +2,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) 
-        [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-        
-        *Please fill out the form below to propose a dataset for the RivEx Sandbox.*
-
+        # RivEx Dataset Proposal
+        Please fill out the form below.
   - type: input
     id: topical_leads
     attributes:
@@ -14,62 +11,10 @@ body:
       description: Enter the GitHub handles of the leads (e.g., @c-h-david)
     validations:
       required: true
-
-  - type: input
-    id: presentation_date
-    attributes:
-      label: Presentation Date
-      description: YYYY-MM-DD
-    validations:
-      required: true
-
-  - type: input
-    id: target_release_date
-    attributes:
-      label: Target Public Release Date
-      description: Public sharing is expected within 2 months of presentation day (YYYY-MM-DD).
-    validations:
-      required: true
-
   - type: textarea
     id: overview
     attributes:
-      label: 📖 Overview
-      description: Provide a high-level, 1-2 paragraph summary of the dataset you are proposing. What is it, and what gap does it fill in global surface water science?
-    validations:
-      required: true
-
-  - type: textarea
-    id: relevance
-    attributes:
-      label: 🎯 Relevance to the RivEx Sandbox
-      description: How does this dataset contribute to the RivEx Phase A goal? How does it help alleviate the "80/20 problem"?
-    validations:
-      required: true
-
-  - type: textarea
-    id: details
-    attributes:
-      label: 📊 Dataset Details
-      value: |
-        * **Variables Included:** * **Spatial Extent & Resolution:** * **Temporal Coverage & Resolution:** * **Primary Sources:** * **File Format:** validations:
-      required: true
-
-  - type: textarea
-    id: open_science
-    attributes:
-      label: 🔓 Open Science & Licensing
-      value: |
-        * **Repository:** * **Proposed License:** * **In Situ Data Considerations:** validations:
-      required: true
-
-  - type: textarea
-    id: feedback
-    attributes:
-      label: 💬 Call for Consensus & Feedback
-      description: What specific feedback are you looking for from the community?
-      value: |
-        1. 
-        2. 
+      label: Overview
+      description: Provide a summary of the dataset you are proposing.
     validations:
       required: true
