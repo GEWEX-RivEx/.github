@@ -11,6 +11,34 @@ body:
       description: Enter the GitHub handles of the leads (e.g., @c-h-david)
     validations:
       required: true
+  - type: input
+    id: presentation_date
+    attributes:
+      label: RivEx community presentation date
+      description: Please enter the date of your topic presentation.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: presentation_recording
+    attributes:
+      label: RivEx community presentation recording
+      description: Provide the URL to the recording (if available).
+      placeholder: https://...
+    validations:
+      required: false
+  - type: dropdown
+    id: proposed_license
+    attributes:
+      label: Proposed License Type
+      description: Select the proposed license. (Note that Creative Commons Attribution is the recommended license for RivEx data).
+      options:
+        - Creative Commons Attribution 4.0 International (CC BY 4.0)
+        - Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+        - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+        - Other (Please specify in your overview)
+    validations:
+      required: true
   - type: textarea
     id: overview
     attributes:
