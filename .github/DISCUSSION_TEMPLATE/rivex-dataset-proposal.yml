@@ -6,6 +6,7 @@ body:
         [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
         
         *Please fill out the form below to propose a dataset for the RivEx Sandbox.*
+
   - type: input
     id: topical_leads
     attributes:
@@ -13,6 +14,7 @@ body:
       description: Enter the GitHub handles of the leads (e.g., @c-h-david)
     validations:
       required: true
+
   - type: input
     id: presentation_date
     attributes:
@@ -20,6 +22,7 @@ body:
       description: YYYY-MM-DD
     validations:
       required: true
+
   - type: input
     id: target_release_date
     attributes:
@@ -27,6 +30,7 @@ body:
       description: Public sharing is expected within 2 months of presentation day (YYYY-MM-DD).
     validations:
       required: true
+
   - type: textarea
     id: overview
     attributes:
@@ -34,6 +38,7 @@ body:
       description: Provide a high-level, 1-2 paragraph summary of the dataset you are proposing. What is it, and what gap does it fill in global surface water science?
     validations:
       required: true
+
   - type: textarea
     id: relevance
     attributes:
@@ -41,6 +46,7 @@ body:
       description: How does this dataset contribute to the RivEx Phase A goal? How does it help alleviate the "80/20 problem"?
     validations:
       required: true
+
   - type: textarea
     id: details
     attributes:
@@ -48,6 +54,7 @@ body:
       value: |
         * **Variables Included:** * **Spatial Extent & Resolution:** * **Temporal Coverage & Resolution:** * **Primary Sources:** * **File Format:** validations:
       required: true
+
   - type: textarea
     id: open_science
     attributes:
@@ -55,6 +62,7 @@ body:
       value: |
         * **Repository:** * **Proposed License:** * **In Situ Data Considerations:** validations:
       required: true
+
   - type: textarea
     id: feedback
     attributes:
