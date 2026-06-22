@@ -18,5 +18,15 @@ This space serves as the central hub for our open-source tools, collaborative di
 * **[Presentation Recordings](https://youtube.com/playlist?list=PLifUcr8RTIuAfDdOIom6Ryen_TT43glCO)**  
   Catch up on past presentations, seminars, and community meetings via our YouTube playlist.
 
+## 🤝 Community Guidelines
+
+We strive to build an open, inclusive, and rigorous scientific environment. Before participating in discussions or contributing code, please review our standards:
+
+* **[Code of Conduct](https://github.com/GEWEX-RivEx/.github/blob/main/CODE_OF_CONDUCT.md)**  
+  Our baseline expectations for respectful behavior, ensuring a welcoming and harassment-free community for everyone.
+
+* **[Code of Scientific Collaboration](https://github.com/GEWEX-RivEx/.github/blob/main/CODE_OF_COLLAB.md)**  
+  Our principles and best practices for conducting transparent, fair, and collaborative open scientific research.
+
 ---
 *The GEWEX-RivEx organization is an initiative under the GEWEX Hydroclimatology Panel.*
